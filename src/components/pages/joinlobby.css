@@ -1,0 +1,146 @@
+body {
+    background: #c8bebe;
+}
+
+.code-div {
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    top: 0px;
+    /* background-color: red; */
+}
+
+.head-div {
+    /* Auto layout */
+    position: absolute;
+    top: 1%;
+    left: 10%;
+    width: 250%;
+    height: 10%;
+    background-color: red;
+}
+
+.name-input {
+    width: 237px;
+    height: 41px;
+
+    font-family: 'Rum Raisin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+
+    color: #1E1E1E;
+    background-color: #f6ebeb;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    z-index: 0;
+    border: 2px solid wheat;
+    border-radius: 2px;
+}
+
+.back-div {
+    width: 82px;
+    height: 31px;
+
+    font-family: 'Rum Raisin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #1E1E1E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.join-div {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+
+    width: 107px;
+    height: 63px;
+
+    background: #1E1E1E;
+    border: 2px solid #1E1E1E;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.btn1{
+    height: 60px;
+    width: 200px;
+    font-size: x-large;
+    position: absolute;
+    left: 30%;
+    top: 70%;
+    cursor: pointer;
+}
+
+.btn2{
+    height: 60px;
+    width: 200px;
+    font-size: x-large;
+    position: absolute;
+    left: 58%;
+    top: 70%;
+    cursor: pointer;
+}
+
+.form-div{
+    position: absolute;
+    top: 0%;
+    left: 45%;
+    height: 500px;
+    width: 50%;
+    /* background-color: blue; */
+    margin: auto;
+    text-align: center;
+    text-align: center;
+    background-color: grey;
+}
+
+.inp-div{
+    position: absolute;
+    top: 30%;
+    width: 50%;
+    margin-left: 30%;
+}
+
+.rules{
+    position: absolute;
+    top: 40%;
+    height: 200px;
+    font-size: larger;
+    font-family: 'Trebuchet MS';
+    color: red;
+}

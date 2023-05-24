@@ -1,0 +1,327 @@
+body {
+    background: #c8bebe;
+}
+
+.code-div {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    width: 50%;
+    height: 50%;
+
+}
+
+.head-div {
+    box-sizing: border-box;
+
+    /* Auto layout */
+    position: absolute;
+    top: 25%;
+    left: 47%;
+    width: 50%;
+    height: 50%;
+
+}
+
+.name-input {
+    width: 237px;
+    height: 41px;
+
+    font-family: 'Rum Raisin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1em;
+    text-transform: capitalize;
+
+    color: #1E1E1E;
+    background-color: #f6ebeb;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    z-index: 0;
+    border: 2px solid wheat;
+    border-radius: 2px;
+}
+
+.back-div {
+    width: 82px;
+    height: 31px;
+
+    font-family: 'Rum Raisin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    /* identical to box height */
+
+    letter-spacing: 0.1em;
+
+    color: #1E1E1E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.join-div {
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+
+    width: 107px;
+    height: 63px;
+
+    background: #1E1E1E;
+    border: 2px solid #1E1E1E;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.main-div {
+    position: absolute;
+    width: 100%;
+    border: 2px solid black;
+    height: 100%;
+    top: 0;
+    background-color: rgb(203, 195, 195);
+    ;
+}
+
+.player-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px;
+
+    position: absolute;
+    width: 416px;
+    left: 72px;
+    top: 0px;
+    bottom: 0px;
+
+    background: #E0E0E0;
+}
+
+.top-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 16px;
+    isolation: isolate;
+    position: absolute;
+    width: 85%;
+    height: 126px;
+
+    background: #1E1E1E;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.sub-top {
+    width: 352px;
+    height: 57px;
+
+    background: #3E3F40;
+
+}
+
+.about {
+    height: 30px;
+    width: 130px;
+    padding: 10px;
+    background-color: #9da0a4;
+    position: absolute;
+    height: 60%;
+    top: 35%;
+    width: 65%;
+    text-align: justify;
+}
+
+.right-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 0px;
+
+    position: absolute;
+    width: 68%;
+    left: 490px;
+    top: 0px;
+    bottom: 0px;
+
+    background: #E0E0E0;
+    background-color: grey;
+}
+
+
+.heading {
+    position: absolute;
+    width: 746px;
+    height: 124px;
+    left: 30%;
+    font-family: 'Trebuchet MS';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 124px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: capitalize;
+
+    color: #1E1E1E;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    top: -2%;
+}
+
+.card{
+    width: 18rem;
+
+}
+
+.info{
+    position: absolute;
+    width: 51%;
+    height: 30%;
+    background-color: rgb(185, 181, 181);
+    top: 30%;
+    font-size: xx-large;
+}
+
+.id-div{
+    position: absolute;
+    margin: auto;
+    top: 35%;
+    left: 14%;
+    font-weight: bolder;
+}
+
+.question-div{
+    position: absolute;
+    top: 25%;
+    height: 100px;
+    width: 600px;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: larger;
+    font-weight: bold;
+}
+
+.ans-div{
+    position: absolute;
+    left: 48%;
+    top: 40%;
+    height: 300px;
+    width: 550px;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-size: large;
+}
+
+.btn{
+    height: 60px;
+    width: 200px;
+    font-size: x-large;
+    position: absolute;
+    left: 30%;
+    top: 110%;
+    cursor: pointer;
+}
+
+.q1{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    left: 15%;
+    top: 40%;
+    background-color: rgb(197, 191, 191);
+    padding-left: 10px;
+}
+
+.q2{
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    left: 15%;
+    top: 65%;
+    background-color: rgb(197, 191, 191);
+    padding-left: 10px;
+}
+
+.feedback-div{
+    height: 500px;
+    width: 600px;
+    /* background-color: red; */
+    position: absolute;
+    top: 10%;
+
+}
+
+.qu1-div{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(237, 232, 232);
+    position: absolute;
+    top: 20%;
+    font-size: larger;
+}
+
+.qu2-div{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(237, 232, 232);
+    position: absolute;
+    top: 45%;
+    font-size: larger;
+}
+
+.suggest-div{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(237, 232, 232);
+    position: absolute;
+    top: 70%;
+    font-size: larger;
+}
